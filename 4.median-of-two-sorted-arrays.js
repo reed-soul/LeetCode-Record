@@ -50,7 +50,7 @@ findMedianSortedArrays = (nums1, nums2) => {
     if (arr.length % 2 > 0) {
         return arr[Math.floor(medianIndex)]
     } else {
-        return (arr[medianIndex - 1] + (arr[medianIndex])) / 2
+        return (arr[medianIndex - 1] + arr[medianIndex]) / 2
     }
 };
 
